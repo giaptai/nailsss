@@ -1,0 +1,1 @@
+// import emailIcon from '../../assets/svg/mail.svg'

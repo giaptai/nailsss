@@ -1,0 +1,44 @@
+.tabview-position {
+	.p-tabview {
+		margin-top: 12px;
+		.p-tabview-panels {
+			padding: 24px 40px !important;
+			background-color: #f3f3f3;
+		}
+		.p-tabview-nav-container {
+			.p-tabview-nav-content {
+				.p-tabview-nav {
+					border: none;
+					.p-unselectable-text.p-tabview-selected.p-highlight {
+						.p-tabview-nav-link {
+							background-color: white !important;
+							border: 1px solid #7254f3;
+							border-bottom-width: 4px;
+							.p-tabview-title {
+								color: #7254f3;
+								font-weight: 700;
+								font-size: 14px;
+							}
+						}
+					}
+					.p-unselectable-text {
+						.p-tabview-nav-link {
+							background-color: #f0f2f4;
+							max-height: 48px;
+							text-decoration: none;
+							.p-tabview-title {
+								color: #696e79;
+								font-weight: 700;
+								font-size: 14px;
+							}
+						}
+					}
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					padding-left: 40px !important;
+				}
+			}
+		}
+	}
+}

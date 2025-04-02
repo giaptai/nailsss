@@ -1,0 +1,7 @@
+.p-datatable .p-datatable-thead > tr > th {
+	padding: 0 0 0 0.5rem !important;
+}
+.p-datatable .p-datatable-tbody > tr > td,
+.p-datatable .p-datatable-tfoot > tr > td {
+	padding: 0 !important;
+}
